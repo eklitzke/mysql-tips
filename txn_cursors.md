@@ -47,10 +47,10 @@ system (although the implementation details don't really matter).
 Transaction Isolation Levels
 ----------------------------
 
-MySQL's InnoDB engine supports four different [transaction isolation
-levels](http://en.wikipedia.org/wiki/Isolation_\(database_systems\)). These are
-the four isolation levels specified by the SQL standard. They are as follows (in
-order from least isolated and cheapest, to most isolated and most expensive):
+MySQL's InnoDB engine supports four different transaction isolation
+levels. These are the four isolation levels specified by the SQL standard. They
+are as follows (in order from least isolated and cheapest, to most isolated and
+most expensive):
 
  * READ UNCOMMITTED -- in theory this means that you can observe data written to
    by other transactions that haven't yet committed. AFAIK this isn't actually
